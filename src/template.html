@@ -16,23 +16,28 @@
         <img src="assets/logo.svg" alt="Productly Logo">
       </a>
       <ul class="main-nav__menu">
-        <li>Product</li>
-        <li>Customers</li>
-        <li>Pricing</li>
-        <li>Resources</li>
+        <li><a href="#" class="main-nav__link">Product</a></li>
+        <li><a href="#" class="main-nav__link">Customers</a></li>
+        <li><a href="#" class="main-nav__link">Pricing</a></li>
+        <li><a href="#" class="main-nav__link">Resources</a></li>
       </ul>
-      <button>Sign In</button>
-      <button>Sign Up</button>
+      <button class="btn btn--nav btn--rev">Sign In</button class="btn btn-nav">
+      <button class="btn btn--nav">Sign Up</button>
     </nav>
 
     <header class="section section--header">
       <div class="section__content">
         <h1 class="section__title section__title--header">The Design Thinking superpowers</h1>
         <p class="section__text section__text--header">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-        <button>Get started</button>
-        <button><img src="assets/play-icon.svg" alt="">Watch the Video</button>
+        <div>
+          <button class="btn">Get started</button>
+          <button class="btn btn--video">
+            <img class="btn__icon" src="assets/play-icon.svg" alt="">
+            Watch the Video
+          </button>
+        </div>
       </div>
-      <img src="assets/header-img.svg" alt="">
+      <img class="section__img" src="assets/header-img.svg" alt="">
     </header>
 
     <main>
@@ -121,7 +126,7 @@
           <p class="section__text section--text--superhero">
             Do you require some help for your project: Conception workshop, prototyping, marketing strategy, landing page, Ux/UI?
           </p>
-          <button>Contact our expert</button>
+          <button class="btn">Contact our expert</button>
         </div>
         <div class="avatars">
           <div class="avatar">
@@ -205,7 +210,7 @@
       </ul>
       <form class="subscribe-form">
         <input type="email" name="subscribe" id="subscribe" required>
-        <button type="submit">Sign up Now</button>
+        <button class="btn btn--footer" type="submit">Sign up Now</button>
       </form>
     </footer>
 
