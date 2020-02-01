@@ -191,27 +191,35 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <a href="#" class="logo">
         <img src="assets/logo.svg" alt="Productly Logo">
       </a>
-      <ul class="footer-nav">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">FAQ</a></li>
-      </ul>
-      <ul class="footer-nav">
-        <li><a href="#">Disclaimer</a></li>
-        <li><a href="#">Financing</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms of Service</a></li>
-      </ul>
-      <form class="subscribe-form">
-        <input type="email" name="subscribe" id="subscribe" required>
-        <button class="btn btn--footer" type="submit">Sign up Now</button>
-      </form>
+      <div>
+        <h3 class="footer__header">Quick Links</h3>
+        <ul class="footer-nav">
+          <li><a class="footer__link" href="#">About Us</a></li>
+          <li><a class="footer__link" href="#">Blog</a></li>
+          <li><a class="footer__link" href="#">Contact</a></li>
+          <li><a class="footer__link" href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__header">Legal stuff</h3>
+        <ul class="footer-nav">
+          <li><a class="footer__link" href="#">Disclaimer</a></li>
+          <li><a class="footer__link" href="#">Financing</a></li>
+          <li><a class="footer__link" href="#">Privacy Policy</a></li>
+          <li><a class="footer__link" href="#">Terms of Service</a></li>
+        </ul>
+       </div>
+       <div>
+        <h3 class="footer__header">Stay in Touch!</h3>
+        <form class="subscribe-form">
+          <input class="email-input" type="email" name="subscribe" id="subscribe" placeholder="Enter your email" required>
+          <button class="btn btn--footer" type="submit">Sign up Now</button>
+        </form>
+       </div>
     </footer>
-
   </body>
 </html>
