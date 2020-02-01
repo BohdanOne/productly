@@ -1,0 +1,11 @@
+.card {
+  width: 240px;
+  &__title {
+    @include font(22px, 500);
+    margin: 30px 0 13px;
+    color: $col-black;
+  }
+  &__text {
+    color: $col-brown;
+  }
+}

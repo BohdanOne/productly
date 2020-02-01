@@ -12,21 +12,25 @@
   <body>
 
     <nav class="main-nav">
-      <a href="#" class="logo">
-        <img src="assets/logo.svg" alt="Productly Logo">
-      </a>
-      <ul class="main-nav__menu">
-        <li><a href="#" class="main-nav__link">Product</a></li>
-        <li><a href="#" class="main-nav__link">Customers</a></li>
-        <li><a href="#" class="main-nav__link">Pricing</a></li>
-        <li><a href="#" class="main-nav__link">Resources</a></li>
-      </ul>
-      <button class="btn btn--nav btn--rev">Sign In</button class="btn btn-nav">
-      <button class="btn btn--nav">Sign Up</button>
+      <div class="main-nav__left">
+        <a href="#" class="logo">
+          <img src="assets/logo.svg" alt="Productly Logo">
+        </a>
+      </div>
+      <div class="main-nav__right">
+        <ul class="main-nav__menu">
+          <li><a href="#" class="main-nav__link">Product</a></li>
+          <li><a href="#" class="main-nav__link">Customers</a></li>
+          <li><a href="#" class="main-nav__link">Pricing</a></li>
+          <li><a href="#" class="main-nav__link">Resources</a></li>
+        </ul>
+        <button class="btn btn--nav btn--rev">Sign In</button class="btn btn-nav">
+        <button class="btn btn--nav">Sign Up</button>
+      </div>
     </nav>
 
     <header class="section section--header">
-      <div class="section__content">
+      <div class="section__content section__content--header">
         <h1 class="section__title section__title--header">The Design Thinking superpowers</h1>
         <p class="section__text section__text--header">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
         <div>
@@ -42,10 +46,10 @@
 
     <main>
       <section class="section section--feature">
-        <h2 class="section__title">
+        <h2 class="section__title section__title--feature">
           We design tools to unveil your superpowers
         </h2>
-        <div class="cards-container">
+        <div class="section--feature__cards">
           <div class="card">
             <img src="assets/pointer-icon.svg" alt="" class="card__img">
             <h3 class="card__title">First click tests</h3>
@@ -67,7 +71,7 @@
             <p class="card__text">Personal choices and the overall personality of the person. </p>
           </div>
         </div>
-        <button>SIGN UP NOW</button>
+        <button class="btn">SIGN UP NOW</button>
       </section>
 
       <section class="section">

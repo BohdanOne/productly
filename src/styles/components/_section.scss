@@ -1,21 +1,25 @@
 .section {
+  border: 1px solid red;
   width: 100%;
+  height: 100%;
   display: flex;
+  align-items: center;
   &__content {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding-right: 8%;
+    &--header {
+      padding-right: 8%;
+    }
   }
   &__text {
-    margin-bottom: 45px;
+    margin-bottom: 1.5rem;
   }
   &__img {
     width: 50%;
     height: 100%;
   }
-  &--header {
-    margin-bottom: 110px;
-  }
+
+  
 }

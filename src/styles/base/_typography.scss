@@ -13,6 +13,10 @@ body {
     @include font(44px, 700);
     line-height: 1.23;
   }
+  &--feature {
+    text-align: center;
+    width: 50%;
+  }
 }
 
 .section__text {
