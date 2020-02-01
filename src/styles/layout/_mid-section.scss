@@ -1,0 +1,19 @@
+.section__list__item {
+  font: inherit;
+  color: $col-brown;
+  padding: 15px 30px 15px 65px;
+  position: relative;
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    content: '';
+    height: 35px;
+    width: 35px;
+    background-image: url('../assets/list-icon.svg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

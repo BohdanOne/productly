@@ -9,6 +9,7 @@ body {
 
 .section__title {
   @include font(36px, 700);
+  margin-bottom: 22px;
   &--header {
     @include font(44px, 700);
     line-height: 1.23;
@@ -17,10 +18,19 @@ body {
     text-align: center;
     width: 50%;
   }
+  &__intro {
+    @extend .section__text;
+  }
+}
+
+.section__subtitle {
+  @include font(16px, 600);
+  color: $col-black;
+  margin-bottom: 12px;
 }
 
 .section__text {
-  @include font(16px, 500);
+  @include font(16px, 400);
   color: $col-brown;
   &--header {
     @include font(18px, 400);
