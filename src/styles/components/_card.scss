@@ -4,8 +4,26 @@
     @include font(22px, 500);
     margin: 30px 0 13px;
     color: $col-black;
+    width: 90%;
   }
   &__text {
     color: $col-brown;
+    width: 90%;
   }
 }
+
+@media (max-width: 958px) {
+  .card__title {
+    @include font(20px, 500);
+  }
+}
+
+@media (max-width: 460px) {
+  .card {
+    padding-bottom: 10px;
+  }
+  .card__title {
+    @include font(16px, 500);
+  }
+}
+

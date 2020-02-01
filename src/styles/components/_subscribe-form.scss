@@ -4,8 +4,7 @@
   .email-input {
     font: inherit;
     color: $col-black;
-    width: 325px;
-    max-width: 100%;
+    max-width: 325px;
     height: 48px;
     padding: 15px;
     border: 1px solid $col-borders;
@@ -15,5 +14,11 @@
       font: inherit;
       color: $col-borders;
     }
+  }
+}
+
+@media (max-width: 460px) {
+  .email-input {
+    width: 200px;
   }
 }

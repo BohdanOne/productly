@@ -19,3 +19,26 @@
     @include font(14px, 400);
   }
 }
+
+@media (max-width: 958px) {
+  .main-nav {
+    min-height: 78px;
+    &__right {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .main-nav {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 460px) {
+  .main-nav__menu {
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
+}

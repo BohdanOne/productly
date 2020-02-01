@@ -26,3 +26,21 @@
     height: 100%;
   }
 }
+
+@media (max-width: 600px) {
+  .section {
+    flex-direction: column;
+    &__content {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .section {
+    margin-bottom: 60px;
+  }
+  .section__content {
+      width: 90%;
+  }
+}

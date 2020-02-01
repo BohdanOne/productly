@@ -9,12 +9,28 @@
       font-weight: 700;
     }
   }
-  .post__title {
+  &__title {
     font-size: 24px;
     line-height: 1.42;
     max-width: 294px;
     &--highlight {
       color: $col-primary;
     }
+  }
+  &__img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 958px) {
+  .post__title {
+    @include font(20px, 700);
+  }
+}
+
+@media (max-width:460px) {
+  .post__title {
+    @include font(16px, 700);
   }
 }
