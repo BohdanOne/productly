@@ -1,0 +1,56 @@
+.section--superhero {
+  width: 100%;
+  border: 1px solid red;
+  background-image: url('../assets/superhero-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  padding-top: 90px;
+  margin-top: 157px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  .section__content {
+    text-align: center;
+    border: 1px solid green;
+    padding: 0;
+    .btn {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .avatars {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &--bottom {
+      border: 2px solid blue;
+    }
+    .avatar {
+      border: 3px solid yellow;
+      display: flex;
+      margin: 1px;
+      &__img {
+        transform: translate(-55%, 55%);
+      }
+      &__img--rev {
+        transform: translate(-340%, 55%);
+      }
+      &__text {
+        z-index: 10;
+      }
+      &-2 {
+          transform: translate(0, 80%)
+      }
+      &-3 {
+        transform: translate(-20%,-50%)
+      }
+      &-4 {
+        transform: translate(0, -40%)
+      }
+      &-5 {
+        transform: translate(16%, 0)
+      }
+    }
+  }
+}
