@@ -36,4 +36,7 @@ body {
     @include font(18px, 400);
     line-height: 1.55;
   }
+  &--superhero {
+    color: $col-ternary;
+  }
 }
